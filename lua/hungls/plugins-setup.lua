@@ -127,9 +127,9 @@ return packer.startup(function(use)
   -- Dashboard
   use {
     'goolord/alpha-nvim',
-    config = function ()
-        require'alpha'.setup(require'alpha.themes.dashboard'.config)
-    end
+    config = function()
+      require("config.alpha").setup()
+    end,
   }
 
   -- WhichKey suggest shortcut keyboard
