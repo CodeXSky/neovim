@@ -1,7 +1,9 @@
+require "config"
 require("hungls.plugins-setup")
 require("hungls.core.options")
 require("hungls.core.keymaps")
 require("hungls.core.colorscheme")
+require("hungls.core.ignoresnip")
 require("hungls.plugins.comment")
 require("hungls.plugins.nvim-tree")
 require("hungls.plugins.lualine")
